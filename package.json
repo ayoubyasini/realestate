@@ -19,7 +19,8 @@
     "react-hot-toast": "^2.4.1",
     "react-icons": "^4.11.0",
     "react-loader-spinner": "^5.4.5",
-    "react-multi-date-picker": "^4.4.1"
+    "react-multi-date-picker": "^4.4.1",
+    "webpack": "^5.89.0"
   },
   "devDependencies": {
     "eslint": "^8",

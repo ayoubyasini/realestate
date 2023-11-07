@@ -16,12 +16,13 @@ function SideBar() {
         دسته بندی
       </p>
       <Link href="/buy-residential">همه </Link>
-      {queries.map((query) => (
+      {queries.map((query, index) => (
         <Link
           href={{
             pathname: "/buy-residential",
             query: { category: Object.keys(query) },
           }}
+          key={index}
         >
           {Object.values(query)}
         </Link>
