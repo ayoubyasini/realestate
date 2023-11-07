@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import RadioList from "../module/RadioList";
 import TextInput from "../module/TextInput";
 import TextList from "../module/TextList";
-import CustomDatePicker from "../module/customDatePicker";
+import CustomDatePicker from "../module/CustomDatePicker";
 import styles from "./AddProfilePage.module.css";
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
